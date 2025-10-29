@@ -5,7 +5,7 @@
 
 <h3> Objective</h3>
 <p>
-The objective is to create a full-stack platform that:
+The objective which is 
 <ul>
   <li> Dynamically splits expenses among group members</li>
   <li></li> Automatically readjusts balances when new members or expenses are added</li>
