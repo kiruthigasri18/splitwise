@@ -16,10 +16,4 @@ The objective of the project is to
 </p>
 
 
-<h3> Wallet System</h3>
-<ul>
-  <li>Users can deposit or withdraw money within the app wallet.</li>
-  <li>Each transaction is logged for transparency.</li>
-  <li>Wallet shows balance summary and complete transaction history.</li>
-  <li>Supports balance check, transfer, and reimbursement adjustments.</li>
-</ul>
+
