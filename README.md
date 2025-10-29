@@ -8,7 +8,7 @@
 The objective of the project is to 
 <ul>
   <li> Dynamically splits expenses among group members</li>
-  <li></li> Automatically readjusts balances when new members or expenses are added</li>
+  <li> Automatically readjusts balances when new members or expenses are added</li>
   <li> Supports reimbursement for overpaid members</li>
   <li>Provides a wallet system to manage deposits, withdrawals, and check balances</li>
   <li>Displays detailed transaction history similar to GPay or UPI apps</li>
