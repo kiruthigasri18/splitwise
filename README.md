@@ -2,10 +2,10 @@
 
 <p>
   A backend system built to manage shared expenses within groups. 
-  It tracks expenses, balances, wallets, and settlements with fully transparent and reliable calculations.
+  It tracks expenses, balances, wallets and settlements with fully transparent and reliable calculations.
 </p>
 
-<hr>
+
 
 <h2>Goal</h2>
 <p>
@@ -21,7 +21,7 @@
   <li>Provide clear transaction history for audits and transparency</li>
 </ul>
 
-<hr>
+
 
 <h2>System Overview</h2>
 <p>
@@ -38,47 +38,18 @@
   <li><strong>Transactions:</strong> Expenses, reimbursements, and settlements.</li>
 </ul>
 
-<hr>
+<ul>
+  <li><code>users.py</code> — Handles user creation, user details, and wallet linking.</li>
+  <li><code>groups.py</code> — Manages group creation, members, and group-level operations.</li>
+  <li><code>wallet.py</code> — Controls wallet functions such as deposits, withdrawals, and balance updates.</li>
+  <li><code>transactions.py</code> — Stores expenses, splits amounts, and calculates reimbursements.</li>
+  <li><code>analytics.py</code> — Generates summaries and overall balance reports.</li>
+  <li><code>models.py</code> — Contains the core data models used across the system.</li>
+  <li><code>db.py</code> — Database configuration and setup.</li>
+  <li><code>main.py</code> — The entry point to run the application.</li>
+</ul>
 
-<h2>Structure</h2>
-<table>
-  <tr>
-    <th>File</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td><code>users.py</code></td>
-    <td>Handles user creation and wallet linking.</td>
-  </tr>
-  <tr>
-    <td><code>groups.py</code></td>
-    <td>Manages groups and their members.</td>
-  </tr>
-  <tr>
-    <td><code>wallet.py</code></td>
-    <td>Manages wallet operations: deposit, withdrawal, and balance checks.</td>
-  </tr>
-  <tr>
-    <td><code>transactions.py</code></td>
-    <td>Handles expense entries and reimbursement logic.</td>
-  </tr>
-  <tr>
-    <td><code>analytics.py</code></td>
-    <td>Provides summaries and balance analysis.</td>
-  </tr>
-  <tr>
-    <td><code>models.py</code></td>
-    <td>Defines core data structures.</td>
-  </tr>
-  <tr>
-    <td><code>db.py</code></td>
-    <td>Database configuration and initialization.</td>
-  </tr>
-  <tr>
-    <td><code>main.py</code></td>
-    <td>Application entry point.</td>
-  </tr>
-</table>
+
 
 <h2>Features</h2>
 <ul>
