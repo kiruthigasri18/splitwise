@@ -37,7 +37,7 @@
   <li><strong>Wallets:</strong> Track real-time user balances.</li>
   <li><strong>Transactions:</strong> Expenses, reimbursements, and settlements.</li>
 </ul>
-<hr>
+
 
 <h2>Structure</h2>
 
